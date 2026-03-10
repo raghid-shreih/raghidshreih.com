@@ -1,16 +1,29 @@
 import type { Express } from "express";
-import { createServer, type Server } from "http";
+import { type Server } from "http";
 import { storage } from "./storage";
+import { contactMessageSchema } from "@shared/schema";
 
 export async function registerRoutes(
   httpServer: Server,
   app: Express
 ): Promise<Server> {
-  // put application routes here
-  // prefix all routes with /api
+  app.post("/api/contact", async (req, res) => {
+    try {
+      const result = contactMessageSchema.safeParse(req.body);
+      if (!result.success) {
+        return res.status(400).json({
+          message: "Invalid form data",
+          errors: result.error.flatten().fieldErrors,
+        });
+      }
 
-  // use storage to perform CRUD operations on the storage interface
-  // e.g. storage.insertUser(user) or storage.getUserByUsername(username)
+      await storage.saveContactMessage(result.data);
+      return res.status(200).json({ message: "Message received successfully" });
+    } catch (error) {
+      console.error("Contact form error:", error);
+      return res.status(500).json({ message: "Failed to send message" });
+    }
+  });
 
   return httpServer;
 }

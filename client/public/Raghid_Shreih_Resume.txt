@@ -1,0 +1,130 @@
+RAGHID SHREIH, M.Sc., MBA
+shreih@gmail.com | linkedin.com/in/raghid | Doha, Qatar (+974 3997 8703)
+
+═══════════════════════════════════════════════════════════════
+PROFESSIONAL SUMMARY
+═══════════════════════════════════════════════════════════════
+
+Technology and business leader with 18+ years of experience delivering complex, high-impact technology initiatives across technical program management, solutions engineering, business development, and product strategy. Proven track record leading cross-functional programs at Google, Shopify, Aramco, and across government and academic institutions. Deep expertise in pre-sales, solutions architecture, and large-scale IT and digital implementations. Extensive startup and early-stage experience spanning technical execution, go-to-market strategy, intellectual property (IP), and technology commercialization.
+
+═══════════════════════════════════════════════════════════════
+CORE COMPETENCIES
+═══════════════════════════════════════════════════════════════
+
+- AI & Emerging Technologies        - Technical Program Management
+- Software System Architecture      - Stakeholder Management
+- Customer Enablement               - Technology Commercialization
+- Go-to-Market Strategy             - IP & Licensing
+- Pre-Sales C-Level Engagement      - Solution Architecture
+- Product Strategy                  - Startup Mentorship
+
+═══════════════════════════════════════════════════════════════
+TECHNICAL SKILLS
+═══════════════════════════════════════════════════════════════
+
+- Javascript, React, Node.js        - AI driven software development
+- REST, GraphQL                     - Replit, Lovable, Cursor
+- Python, PHP, SQL                  - Github
+- Google Cloud Platform (GCP)       - Cloud Engineering Certificate
+                                    - Data Engineering Certificate
+
+═══════════════════════════════════════════════════════════════
+PROFESSIONAL EXPERIENCE
+═══════════════════════════════════════════════════════════════
+
+HAMAD BIN KHALIFA UNIVERSITY (HBKU)
+Research Commercialization Manager | Jun 2025 - Present
+
+- Commercialization of AI-driven technologies from research through proof-of-concept, prototyping, pilot deployments, and commercial deployment via licensing and spinouts.
+- Strategic interface between research, industry partners, startups, and legal / IP teams.
+- Defined technical, commercial, and go-to-market roadmaps.
+- Designed and executed projects to validate AI solutions with customers.
+- Build business cases supporting licensing strategies, spinouts, and strategic partnerships.
+- Support contract acquisition through tender submissions, project proposals, and partner engagement.
+- Managed technology programs with Qatari enterprises and government departments including the Ministry of Justice (MOJ), the National Cyber Security Agency (NCSA), Mowasalat, and Qatar Airways.
+
+───────────────────────────────────────────────────────────────
+
+SHOPIFY
+Staff Technical Program Manager & Solution Engineer | Jul 2021 - Aug 2025
+
+- Led complex technology implementation programs supporting Shopify's largest enterprise customers including Apple, Supreme, and Everlane.
+- Directed large-scale platform migrations from Salesforce, Adobe, and custom commerce stacks to Shopify, contributing over $600M in GMV.
+- Led enterprise pre-sales technical solutioning in support of strategic sales engagements.
+- Partnered directly with C-suite executives and senior leadership teams at global brands.
+- Coordinated cross-functional engineering teams for large integrations.
+
+───────────────────────────────────────────────────────────────
+
+ARAMCO
+Technology Commercialization Lead | 2019 - 2021
+
+- Led early-stage technology programs from research to commercial deployment.
+- Developed commercialization and go-to-market strategies.
+- Managed technology piloting and demonstration projects.
+- Presented strategic recommendations to senior management.
+- Negotiated technology collaboration and commercialization agreements.
+
+───────────────────────────────────────────────────────────────
+
+SDTC (Sustainable Development Technology Canada)
+Investment Manager | 2018 - 2019
+
+- Led investments of nearly $15M into early-stage technology ventures.
+- Performed due diligence on companies and projects to build investment business cases.
+- Presented investment recommendations to executive and governance committees.
+- Advised portfolio companies on commercialization and strategy.
+
+───────────────────────────────────────────────────────────────
+
+GOOGLE
+Program Manager | Sep 2016 - Mar 2018
+Technical Advisor & Competitive Intelligence Analyst | Apr 2015 - Sep 2016
+
+- Led a team of software engineers developing a complex enterprise software system.
+- Managed end-to-end program execution including planning, resourcing, dependencies, risk management, and KPI tracking.
+- Applied Agile methodologies including Scrum and Kanban.
+- Contributing to Google's strategy to protect, defend and capture the value of its patents.
+- Managed Google's participation in IP3 program leading to acquisition and licensing of 56 patent families ($5.3M budget).
+- Represented Google's patent team at CES 2016.
+
+───────────────────────────────────────────────────────────────
+
+KAUST (King Abdullah University of Science and Technology)
+Technology Portfolio Manager | 2012 - 2015
+
+- Managed a portfolio of 80+ technologies, 190+ patents, and 25 agreements.
+- Managed proof-of-concept projects for early-stage technologies.
+- Developed new proof-of-concept funding program.
+- Negotiated complex patent licensing and research collaboration agreements.
+
+───────────────────────────────────────────────────────────────
+
+CANADIAN INTELLECTUAL PROPERTY OFFICE
+Patent Examiner | Jan 2007 - Sep 2012
+
+- Permanent member of PEPAG (Patent Examination Practices Advisory Group).
+- Led project to revise office policy related to computer inventions.
+- Examined Canadian and PCT patent applications.
+
+═══════════════════════════════════════════════════════════════
+EDUCATION & CERTIFICATIONS
+═══════════════════════════════════════════════════════════════
+
+- MBA (with Merit) - University of Leicester (2016)
+- M.Sc. Electrical Engineering - Carleton University (2006)
+- B.Sc. Computer Engineering - University of Ottawa (2002)
+- Certified Licensing Professional (CLP) (2014)
+- Cloud Engineering with Google Cloud Specialization
+- Data Engineering with Google Cloud Specialization
+
+═══════════════════════════════════════════════════════════════
+VOLUNTEERING & SPEAKING
+═══════════════════════════════════════════════════════════════
+
+- IP Mentor for Startups (WIPO IP Management Clinic) | 2025 - 2026
+- Invited Speaker (WIPO IP Management Clinic) | Sept 2025
+- Guest Lecturer, Digital Business (University of Waterloo) | June 2024
+- Startup Community Leader (Startup Canada) | 2022 - 2023
+- Startup Competition Judge (Venture Cup) | 2014 - 2016
+- Entrepreneurship Competition Judge (MIT Enterprise Forum) | 2014 - 2016
