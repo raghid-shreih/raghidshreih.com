@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Link, useLocation } from "wouter";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Sun, Moon } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useTheme } from "@/components/ThemeProvider";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -15,6 +16,7 @@ const navLinks = [
 export default function Navigation() {
   const [location] = useLocation();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { theme, toggleTheme } = useTheme();
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border/50">
@@ -39,15 +41,33 @@ export default function Navigation() {
               </span>
             </Link>
           ))}
+          <button
+            onClick={toggleTheme}
+            className="ml-2 p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted/50 transition-all duration-200"
+            data-testid="button-theme-toggle"
+            aria-label="Toggle dark mode"
+          >
+            {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
+          </button>
         </div>
 
-        <button
-          className="md:hidden p-2 rounded-lg hover:bg-muted/50 transition-colors"
-          onClick={() => setMobileOpen(!mobileOpen)}
-          data-testid="button-mobile-menu"
-        >
-          {mobileOpen ? <X size={20} /> : <Menu size={20} />}
-        </button>
+        <div className="flex md:hidden items-center gap-1">
+          <button
+            onClick={toggleTheme}
+            className="p-2 rounded-lg hover:bg-muted/50 transition-colors text-muted-foreground"
+            data-testid="button-theme-toggle-mobile"
+            aria-label="Toggle dark mode"
+          >
+            {theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}
+          </button>
+          <button
+            className="p-2 rounded-lg hover:bg-muted/50 transition-colors"
+            onClick={() => setMobileOpen(!mobileOpen)}
+            data-testid="button-mobile-menu"
+          >
+            {mobileOpen ? <X size={20} /> : <Menu size={20} />}
+          </button>
+        </div>
       </div>
 
       <AnimatePresence>
