@@ -149,7 +149,7 @@ export default function Home() {
                 className="text-center"
                 data-testid={`stat-${stat.label.toLowerCase().replace(/\s+/g, '-')}`}
               >
-                <div className="font-heading text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent">
+                <div className="font-heading text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent whitespace-nowrap">
                   {stat.value}
                 </div>
                 <div className="mt-2 text-sm text-muted-foreground font-medium">
