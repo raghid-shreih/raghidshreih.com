@@ -8,7 +8,7 @@ const stats = [
   { value: "20+", label: "Years in Tech Leadership" },
   { value: "4", label: "Countries Worked In" },
   { value: "Millions", label: "US Dollars Managed and Invested" },
-  { value: "190+", label: "Patents Managed" },
+  { value: "3", label: "Companies Founded" },
 ];
 
 const highlights = [
