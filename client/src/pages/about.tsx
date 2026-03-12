@@ -3,19 +3,19 @@ import { Globe, Languages, Award, BookOpen, Heart, Mic } from "lucide-react";
 
 const journeyMilestones = [
   {
-    year: "2000",
+    year: "1998",
     title: "The Beginning",
     description: "Started my journey in Ottawa, Canada as a Computer Engineering student at the University of Ottawa, while simultaneously founding Ideal Hosting — a web development and hosting business serving 100+ clients. Built everything from scratch with PHP, MySQL, JavaScript, HTML, and CSS.",
   },
   {
     year: "2002",
     title: "Engineering Foundations",
-    description: "Graduated with a B.Sc. in Computer Engineering and dove into the semiconductor world — designing ASICs at companies like Quake Technologies, Galazar Networks, and Zarlink Semiconductor. Also built and sold WebHostingSeeker.com, a platform connecting website owners with hosting providers.",
+    description: "Graduated with a B.Sc. in Computer Engineering and dove into the semiconductor world, designing ASICs at companies like Quake Technologies, Galazar Networks, and Zarlink Semiconductor. Also built and sold WebHostingSeeker.com, a platform connecting website owners with hosting providers.",
   },
   {
     year: "2006",
     title: "Advanced Studies",
-    description: "Completed an M.Sc. in Electrical Engineering at Carleton University, researching multi-threshold asynchronous pipeline circuits. Transitioned into intellectual property at the Canadian Intellectual Property Office as a Patent Examiner.",
+    description: "Completed an M.Sc. in Electrical Engineering at Carleton University, researching multi-threshold asynchronous pipeline circuits. Applied my technical knowledge to examinining new inventions as a Patent Examiner at the Canadian Intellectual Property Office (CIPO).",
   },
   {
     year: "2012",
@@ -25,27 +25,27 @@ const journeyMilestones = [
   {
     year: "2015",
     title: "The Google Years",
-    description: "Joined Google in the San Francisco Bay Area. First as a Technical Advisor working on patent strategy and competitive intelligence, then as a Program Manager leading a team of software engineers building enterprise software. Represented Google at CES 2016.",
+    description: "Joined Google in the San Francisco Bay Area. First as a Technical Advisor working on patent strategy and competitive intelligence, then as a Program Manager leading a team of software engineers building enterprise software. Represented Google at CES 2016 and led Google's participation in the Industry Patent Purchase Promotion (IP3) program leading to the acquisition and licensing of 56 patent families with a total budget of $5.3 million.",
   },
   {
     year: "2018",
     title: "Clean Tech & Investing",
-    description: "Returned to Canada to lead investments at SDTC (Sustainable Development Technology Canada), deploying nearly $15M into early-stage clean technology ventures. Learned to evaluate companies from every angle — technology, IP, market, team, and financials.",
+    description: "Returned to Canada to lead investments at SDTC (Sustainable Development Technology Canada), deploying nearly $15M into early-stage clean technology ventures. Learned to evaluate companies from every angle including technology, IP, market, team, and financials.",
   },
   {
     year: "2019",
     title: "Energy & Innovation",
-    description: "Joined Aramco as Technology Commercialization Lead, bridging the gap between cutting-edge research labs and real-world commercial deployment for the world's most valuable company.",
+    description: "Joined Aramco as Technology Commercialization Lead, bridging the gap between cutting-edge research labs and real-world commercial deployment for the world's most valuable company. Then COVID hit and I had to return to Canada to be closer to family!",
   },
   {
     year: "2021",
     title: "E-Commerce at Scale",
-    description: "Joined Shopify as a Solutions Engineer, quickly growing into a Staff Technical Program Manager. Led migrations for Apple, Supreme, and Everlane from platforms like Salesforce and Adobe, contributing over $600M in GMV.",
+    description: "Joined Shopify as a Staff Technical Program Manager with Shopify's Professional Services team. Led migrations for Apple, Supreme, and Everlane from platforms like Salesforce and Adobe, contributing over $600M in GMV to Shopify!",
   },
   {
     year: "2025",
     title: "Building Qatar's AI Future",
-    description: "Now at Hamad Bin Khalifa University in Doha, Qatar, commercializing AI-driven technologies and managing technology programs with organizations including the Ministry of Justice, NCSA, Mowasalat, and Qatar Airways.",
+    description: "Now at Hamad Bin Khalifa University (HBKU) in Doha, Qatar, commercializing AI-driven technologies and managing technology collaboration programs with organizations including the Ministry of Justice, NCSA, Mowasalat, and Qatar Airways.",
   },
 ];
 
