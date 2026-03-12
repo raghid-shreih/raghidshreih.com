@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { Linkedin, Mail, MapPin } from "lucide-react";
+import { Linkedin, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -57,10 +57,6 @@ export default function Footer() {
                   Get in Touch
                 </span>
               </Link>
-              <div className="flex items-center gap-3 text-sm text-muted-foreground">
-                <MapPin size={16} />
-                Doha, Qatar
-              </div>
             </div>
           </div>
         </div>
