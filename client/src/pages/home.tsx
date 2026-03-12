@@ -5,7 +5,7 @@ import { SiGoogle, SiShopify } from "react-icons/si";
 import { Button } from "@/components/ui/button";
 
 const stats = [
-  { value: "20+", label: "Years Experience" },
+  { value: "20+", label: "Years in Tech Leadership" },
   { value: "6", label: "Countries Lived In" },
   { value: "$600M+", label: "GMV Contributed" },
   { value: "190+", label: "Patents Managed" },
