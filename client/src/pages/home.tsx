@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { motion } from "framer-motion";
-import { ArrowRight, Briefcase, GraduationCap, Lightbulb, ChevronDown } from "lucide-react";
+import { ArrowRight, Briefcase, GraduationCap, Lightbulb, ChevronDown, MessageCircle } from "lucide-react";
 import { SiGoogle, SiShopify } from "react-icons/si";
 import { Button } from "@/components/ui/button";
 
@@ -83,6 +83,12 @@ export default function Home() {
                 <Button size="lg" className="gap-2 px-8 text-base" data-testid="button-view-resume">
                   View My Resume
                   <ArrowRight size={18} />
+                </Button>
+              </Link>
+              <Link href="/interview">
+                <Button size="lg" variant="secondary" className="gap-2 px-8 text-base" data-testid="button-interview-raghid">
+                  Interview Raghid!
+                  <MessageCircle size={18} />
                 </Button>
               </Link>
               <Link href="/contact">
