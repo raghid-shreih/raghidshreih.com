@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { motion } from "framer-motion";
-import { ArrowRight, Briefcase, GraduationCap, Lightbulb, Sparkles, ChevronDown } from "lucide-react";
+import { ArrowRight, Briefcase, GraduationCap, Lightbulb, ChevronDown } from "lucide-react";
 import { SiGoogle, SiShopify } from "react-icons/si";
 import { Button } from "@/components/ui/button";
 
@@ -59,11 +59,6 @@ export default function Home() {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-center"
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-medium mb-8" data-testid="badge-status">
-              <Sparkles size={14} />
-              Open to New Opportunities
-            </div>
-
             <h1 className="font-heading text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[1.05]" data-testid="text-hero-title">
               <span className="text-foreground">Hi, I'm </span>
               <span className="bg-gradient-to-r from-primary via-blue-500 to-blue-400 bg-clip-text text-transparent">
