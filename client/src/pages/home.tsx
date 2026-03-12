@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 const stats = [
   { value: "20+", label: "Years in Tech Leadership" },
   { value: "4", label: "Countries Worked In" },
-  { value: "Millions $USD", label: "Managed and Invested" },
+  { value: "Millions", label: "US Dollars Managed and Invested" },
   { value: "190+", label: "Patents Managed" },
 ];
 
@@ -149,7 +149,7 @@ export default function Home() {
                 className="text-center"
                 data-testid={`stat-${stat.label.toLowerCase().replace(/\s+/g, '-')}`}
               >
-                <div className="font-heading text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent whitespace-nowrap">
+                <div className="font-heading text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent">
                   {stat.value}
                 </div>
                 <div className="mt-2 text-sm text-muted-foreground font-medium">
