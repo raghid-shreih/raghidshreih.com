@@ -75,7 +75,7 @@ export default function Home() {
             </p>
 
             <p className="mt-4 text-base text-muted-foreground/80 max-w-lg mx-auto italic">
-              Also, I make a mean cup of Arabic coffee. Priorities. ☕
+              Also, I make a mean cup of Cappuccino. Priorities. ☕
             </p>
 
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
