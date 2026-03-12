@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 const stats = [
   { value: "20+", label: "Years in Tech Leadership" },
-  { value: "6", label: "Countries Lived In" },
+  { value: "4", label: "Countries Worked In" },
   { value: "$600M+", label: "GMV Contributed" },
   { value: "190+", label: "Patents Managed" },
 ];
