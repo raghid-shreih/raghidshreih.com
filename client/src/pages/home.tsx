@@ -103,18 +103,20 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.6 }}
-            className="mt-16 max-w-3xl mx-auto"
+            className="mt-16 max-w-4xl mx-auto"
           >
             <div className="relative rounded-2xl overflow-hidden border border-border/50 bg-card/80 backdrop-blur-sm shadow-xl">
-              <div className="aspect-video">
-                <iframe
-                  src="https://raghid-journey-animation.replit.app/"
-                  className="w-full h-full"
-                  title="Raghid's Journey Animation"
-                  allow="autoplay"
-                  loading="lazy"
-                />
-              </div>
+              <iframe
+                src="https://raghid-journey-animation.replit.app/"
+                width="800"
+                height="500"
+                className="block w-full"
+                style={{ height: "500px", minWidth: "100%" }}
+                title="Raghid's Journey Animation"
+                allow="autoplay"
+                loading="lazy"
+                scrolling="no"
+              />
             </div>
           </motion.div>
 
