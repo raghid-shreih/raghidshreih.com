@@ -108,7 +108,7 @@ export default function Home() {
             <div className="relative rounded-2xl overflow-hidden border border-border/50 bg-card/80 backdrop-blur-sm shadow-xl">
               <div className="aspect-video">
                 <iframe
-                  src="https://www.youtube.com/embed/JE4Lvl8rjNY"
+                  src="https://www.youtube.com/embed/JE4Lvl8rjNY?rel=0&modestbranding=1"
                   className="w-full h-full"
                   title="Raghid Shreih — Video Introduction"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
