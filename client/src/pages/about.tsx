@@ -1,5 +1,19 @@
-import { motion } from "framer-motion";
-import { Globe, Languages, Award, BookOpen, Heart, Mic } from "lucide-react";
+import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Globe, Languages, Award, BookOpen, Heart, ChevronLeft, ChevronRight, Mic } from "lucide-react";
+import photo1 from "@assets/PXL_20250903_112911066_1774267800023.jpg";
+import photo2 from "@assets/original_a29b907a-b87c-44a9-9f3c-eed9fe81a55f_PXL_20251111_120_1774267800026.jpg";
+import photo3 from "@assets/PXL_20250818_051316542.MP~2_1774267800027.jpg";
+import photo4 from "@assets/IMG_20220408_072304474_HDR_1774267800027.jpg";
+import photo5 from "@assets/PXL_20250820_054735799.MP_1774267800027.jpg";
+
+const slides = [
+  { src: photo1, alt: "Raghid at IP Management Clinics, Doha" },
+  { src: photo2, alt: "Raghid at Web Summit" },
+  { src: photo3, alt: "Raghid Shreih" },
+  { src: photo4, alt: "Raghid at Google headquarters" },
+  { src: photo5, alt: "Raghid enjoying a cappuccino" },
+];
 
 const journeyMilestones = [
   {
@@ -82,6 +96,88 @@ const personalFacts = [
   },
 ];
 
+function Slideshow() {
+  const [current, setCurrent] = useState(0);
+  const [direction, setDirection] = useState(1);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setDirection(1);
+      setCurrent((prev) => (prev + 1) % slides.length);
+    }, 4000);
+    return () => clearInterval(timer);
+  }, []);
+
+  const go = (index: number) => {
+    setDirection(index > current ? 1 : -1);
+    setCurrent(index);
+  };
+
+  const prev = () => {
+    setDirection(-1);
+    setCurrent((c) => (c - 1 + slides.length) % slides.length);
+  };
+
+  const next = () => {
+    setDirection(1);
+    setCurrent((c) => (c + 1) % slides.length);
+  };
+
+  return (
+    <div className="relative rounded-2xl overflow-hidden border border-border/50 bg-card shadow-xl" data-testid="slideshow">
+      <div className="aspect-video relative overflow-hidden bg-black">
+        <AnimatePresence initial={false} custom={direction}>
+          <motion.img
+            key={current}
+            src={slides[current].src}
+            alt={slides[current].alt}
+            custom={direction}
+            variants={{
+              enter: (d: number) => ({ x: d > 0 ? "100%" : "-100%", opacity: 0 }),
+              center: { x: 0, opacity: 1 },
+              exit: (d: number) => ({ x: d > 0 ? "-100%" : "100%", opacity: 0 }),
+            }}
+            initial="enter"
+            animate="center"
+            exit="exit"
+            transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+        </AnimatePresence>
+
+        <button
+          onClick={prev}
+          className="absolute left-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-black/40 hover:bg-black/60 text-white flex items-center justify-center transition-colors z-10"
+          data-testid="button-slideshow-prev"
+          aria-label="Previous photo"
+        >
+          <ChevronLeft size={20} />
+        </button>
+        <button
+          onClick={next}
+          className="absolute right-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-black/40 hover:bg-black/60 text-white flex items-center justify-center transition-colors z-10"
+          data-testid="button-slideshow-next"
+          aria-label="Next photo"
+        >
+          <ChevronRight size={20} />
+        </button>
+
+        <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2 z-10">
+          {slides.map((_, i) => (
+            <button
+              key={i}
+              onClick={() => go(i)}
+              className={`w-2 h-2 rounded-full transition-all duration-300 ${i === current ? "bg-white scale-125" : "bg-white/50 hover:bg-white/75"}`}
+              data-testid={`button-slideshow-dot-${i}`}
+              aria-label={`Go to photo ${i + 1}`}
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function About() {
   return (
     <div className="min-h-screen pt-24 pb-16">
@@ -109,18 +205,7 @@ export default function About() {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="max-w-3xl mx-auto mb-20"
           >
-            <div className="relative rounded-2xl overflow-hidden border border-border/50 bg-card/80 backdrop-blur-sm shadow-xl">
-              <div className="aspect-video flex items-center justify-center bg-gradient-to-br from-primary/10 to-blue-400/10">
-                <div className="text-center px-8">
-                  <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4">
-                    <Mic className="w-8 h-8 text-primary" />
-                  </div>
-                  <p className="text-muted-foreground text-sm">
-                    Personal video introduction coming soon
-                  </p>
-                </div>
-              </div>
-            </div>
+            <Slideshow />
           </motion.div>
 
           <div className="max-w-4xl mx-auto mb-24">
