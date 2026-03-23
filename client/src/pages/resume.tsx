@@ -1,6 +1,5 @@
-import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { Download, FileText, ChevronDown, ChevronUp, ExternalLink, MapPin, Calendar } from "lucide-react";
+import { motion } from "framer-motion";
+import { Download, FileText, ExternalLink, MapPin, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
@@ -197,12 +196,6 @@ const certifications = [
 ];
 
 export default function Resume() {
-  const [expandedId, setExpandedId] = useState<string | null>("hbku");
-
-  const toggleExpand = (id: string) => {
-    setExpandedId(expandedId === id ? null : id);
-  };
-
   return (
     <div className="min-h-screen pt-24 pb-16">
       <section className="py-16">
@@ -269,61 +262,33 @@ export default function Resume() {
                   >
                     <div className={`absolute left-2.5 top-6 w-4 h-4 rounded-full bg-gradient-to-r ${entry.color} border-2 border-background z-10`} />
 
-                    <div
-                      className="group rounded-2xl border border-border/50 bg-card/50 hover:bg-card hover:border-primary/20 transition-all duration-300 cursor-pointer overflow-hidden"
-                      onClick={() => toggleExpand(entry.id)}
-                    >
-                      <div className="p-5 flex items-start justify-between gap-4">
-                        <div className="flex-1">
-                          <h3 className="font-heading font-bold text-lg">{entry.company}</h3>
-                          <div className="flex items-center gap-2 mt-1 text-sm text-muted-foreground">
-                            <MapPin size={13} />
-                            {entry.location}
-                          </div>
-                          <div className="mt-2 space-y-1">
-                            {entry.roles.map((role) => (
-                              <div key={role.title}>
-                                <span className="text-sm font-medium text-primary">{role.title}</span>
-                                <span className="text-xs text-muted-foreground ml-2">({role.period})</span>
-                              </div>
-                            ))}
-                          </div>
+                    <div className="rounded-2xl border border-border/50 bg-card/50 overflow-hidden">
+                      <div className="p-5">
+                        <h3 className="font-heading font-bold text-lg">{entry.company}</h3>
+                        <div className="flex items-center gap-2 mt-1 text-sm text-muted-foreground">
+                          <MapPin size={13} />
+                          {entry.location}
                         </div>
-                        <button className="mt-1 p-1 rounded-lg hover:bg-muted/50 transition-colors" data-testid={`button-expand-${entry.id}`}>
-                          {expandedId === entry.id ? (
-                            <ChevronUp size={18} className="text-muted-foreground" />
-                          ) : (
-                            <ChevronDown size={18} className="text-muted-foreground" />
-                          )}
-                        </button>
                       </div>
 
-                      <AnimatePresence>
-                        {expandedId === entry.id && (
-                          <motion.div
-                            initial={{ height: 0, opacity: 0 }}
-                            animate={{ height: "auto", opacity: 1 }}
-                            exit={{ height: 0, opacity: 0 }}
-                            transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
-                          >
-                            <div className="px-5 pb-5 border-t border-border/30 pt-4 space-y-4">
-                              {entry.roles.map((role) => (
-                                <div key={role.title}>
-                                  <h4 className="text-sm font-semibold text-foreground mb-2">{role.title}</h4>
-                                  <ul className="space-y-2">
-                                    {role.bullets.map((bullet, j) => (
-                                      <li key={j} className="text-sm text-muted-foreground leading-relaxed flex items-start gap-2">
-                                        <span className="w-1.5 h-1.5 rounded-full bg-primary/50 shrink-0 mt-1.5" />
-                                        {bullet}
-                                      </li>
-                                    ))}
-                                  </ul>
-                                </div>
-                              ))}
+                      <div className="px-5 pb-5 border-t border-border/30 pt-4 space-y-4">
+                        {entry.roles.map((role) => (
+                          <div key={role.title}>
+                            <div className="flex items-baseline gap-2 mb-2">
+                              <h4 className="text-sm font-semibold text-primary">{role.title}</h4>
+                              <span className="text-xs text-muted-foreground">({role.period})</span>
                             </div>
-                          </motion.div>
-                        )}
-                      </AnimatePresence>
+                            <ul className="space-y-2">
+                              {role.bullets.map((bullet, j) => (
+                                <li key={j} className="text-sm text-muted-foreground leading-relaxed flex items-start gap-2">
+                                  <span className="w-1.5 h-1.5 rounded-full bg-primary/50 shrink-0 mt-1.5" />
+                                  {bullet}
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   </motion.div>
                 ))}
