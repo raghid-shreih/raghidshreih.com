@@ -106,17 +106,15 @@ export default function Home() {
             className="mt-16 max-w-4xl mx-auto"
           >
             <div className="relative rounded-2xl overflow-hidden border border-border/50 bg-card/80 backdrop-blur-sm shadow-xl">
-              <iframe
-                src="https://raghid-journey-animation.replit.app/"
-                width="800"
-                height="500"
-                className="block w-full"
-                style={{ height: "500px", minWidth: "100%" }}
-                title="Raghid's Journey Animation"
-                allow="autoplay"
-                loading="lazy"
-                scrolling="no"
-              />
+              <div className="aspect-video">
+                <iframe
+                  src="https://www.youtube.com/embed/JE4Lvl8rjNY"
+                  className="w-full h-full"
+                  title="Raghid Shreih — Video Introduction"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
             </div>
           </motion.div>
 
