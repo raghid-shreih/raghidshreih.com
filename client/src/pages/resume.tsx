@@ -275,7 +275,7 @@ export default function Resume() {
                         {entry.roles.map((role) => (
                           <div key={role.title}>
                             <div className="flex items-baseline gap-2 mb-2">
-                              <h4 className="text-sm font-semibold text-primary">{role.title}</h4>
+                              <h4 className="text-base font-bold text-foreground">{role.title}</h4>
                               <span className="text-xs text-muted-foreground">({role.period})</span>
                             </div>
                             <ul className="space-y-2">
