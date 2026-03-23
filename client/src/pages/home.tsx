@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { motion } from "framer-motion";
-import { ArrowRight, Briefcase, GraduationCap, Lightbulb, ChevronDown, MessageCircle } from "lucide-react";
+import { ArrowRight, Briefcase, GraduationCap, ChevronDown, MessageCircle } from "lucide-react";
 import { SiGoogle, SiShopify } from "react-icons/si";
 import { Button } from "@/components/ui/button";
 
@@ -106,15 +106,14 @@ export default function Home() {
             className="mt-16 max-w-3xl mx-auto"
           >
             <div className="relative rounded-2xl overflow-hidden border border-border/50 bg-card/80 backdrop-blur-sm shadow-xl">
-              <div className="aspect-video flex items-center justify-center bg-gradient-to-br from-primary/10 to-blue-400/10">
-                <div className="text-center px-8">
-                  <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4">
-                    <Lightbulb className="w-8 h-8 text-primary" />
-                  </div>
-                  <p className="text-muted-foreground text-sm">
-                    Video introduction coming soon — stay tuned!
-                  </p>
-                </div>
+              <div className="aspect-video">
+                <iframe
+                  src="https://raghid-journey-animation.replit.app/"
+                  className="w-full h-full"
+                  title="Raghid's Journey Animation"
+                  allow="autoplay"
+                  loading="lazy"
+                />
               </div>
             </div>
           </motion.div>
