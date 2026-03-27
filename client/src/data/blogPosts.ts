@@ -22,6 +22,7 @@ export const blogPosts: BlogPost[] = [
     tags: ["Technology", "Commercialization", "Innovation"],
     source: "linkedin",
     linkedinUrl: "https://www.linkedin.com/in/raghid",
+    videoUrl: "https://www.youtube.com/embed/Ep5neHTiT3E",
     content: `Great research does not automatically translate into real world impact. That requires effective commercialization.
 
 Commercialization is the process of turning research into real-world value. It’s not just about patents or startups. It’s about:
@@ -80,6 +81,7 @@ That’s when innovation truly starts to make an impact!
     tags: ["Patents", "Intellectual Property", "Innovation"],
     source: "linkedin",
     linkedinUrl: "https://www.linkedin.com/in/raghid",
+    videoUrl: "https://www.youtube.com/embed/p45JFsVsPP0",
     content: `Are patents just pieces of paper? Are they a legal excercise that your company forces you to go through? Or are they just trophies that you hang in your office? Well, of course not!
 
 A patent is a legal instrument with real, quantifiable business value. And that value has very little to do with how many pages the patent has, or even how clever the invention sounds. It has everything to do with what the patent actually protects.
