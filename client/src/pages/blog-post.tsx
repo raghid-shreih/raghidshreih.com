@@ -1,6 +1,6 @@
 import { useRoute, Link } from "wouter";
 import { motion } from "framer-motion";
-import { ArrowLeft, Calendar, Clock, Linkedin, ArrowUpRight } from "lucide-react";
+import { ArrowLeft, Calendar, Clock } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { getBlogPost, formatDate } from "@/data/blogPosts";
@@ -54,15 +54,6 @@ export default function BlogPost() {
                 <Clock size={14} />
                 {post.readTime}
               </div>
-              {post.source === "linkedin" && (
-                <>
-                  <span className="text-border">•</span>
-                  <div className="flex items-center gap-1.5 text-sm text-blue-500">
-                    <Linkedin size={14} />
-                    Originally on LinkedIn
-                  </div>
-                </>
-              )}
             </div>
 
             <h1 className="font-heading text-3xl md:text-5xl font-bold leading-tight mb-6" data-testid="text-post-title">
@@ -170,15 +161,6 @@ export default function BlogPost() {
                 </Button>
               </Link>
 
-              {post.linkedinUrl && (
-                <a href={post.linkedinUrl} target="_blank" rel="noopener noreferrer">
-                  <Button variant="outline" className="gap-2" data-testid="button-view-on-linkedin">
-                    <Linkedin size={16} />
-                    View on LinkedIn
-                    <ArrowUpRight size={14} />
-                  </Button>
-                </a>
-              )}
             </div>
           </motion.div>
         </div>

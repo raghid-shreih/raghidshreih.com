@@ -47,15 +47,6 @@ export default function Blog() {
                         <Clock size={13} />
                         {post.readTime}
                       </div>
-                      {post.source === "linkedin" && (
-                        <>
-                          <span className="text-border">•</span>
-                          <div className="flex items-center gap-1.5 text-xs text-blue-500">
-                            <Linkedin size={13} />
-                            LinkedIn
-                          </div>
-                        </>
-                      )}
                     </div>
 
                     <h2 className="font-heading font-bold text-xl mb-3 group-hover:text-primary transition-colors">
