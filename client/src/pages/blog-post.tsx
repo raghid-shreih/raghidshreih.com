@@ -116,15 +116,15 @@ export default function BlogPost() {
                 );
               }
 
-              if (trimmed.startsWith("- ") || trimmed.startsWith("1. ")) {
+              if (trimmed.startsWith("- ") || /^\d+\.\s/.test(trimmed)) {
                 const items = trimmed.split("\n").filter(Boolean);
-                const isOrdered = trimmed.startsWith("1. ");
+                const isOrdered = /^\d+\.\s/.test(trimmed);
                 const Tag = isOrdered ? "ol" : "ul";
                 return (
                   <Tag key={i} className={`my-4 space-y-2 ${isOrdered ? "list-decimal" : "list-disc"} pl-6`}>
                     {items.map((item, j) => (
                       <li key={j} className="text-muted-foreground leading-relaxed text-[15px]">
-                        {renderInlineFormatting(item.replace(/^(-|\d+\.)\s*/, ""))}
+                        {renderInlineFormatting(item.trim().replace(/^(-|\d+\.)\s*/, ""))}
                       </li>
                     ))}
                   </Tag>

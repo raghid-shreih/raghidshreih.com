@@ -105,9 +105,10 @@ This is why patents are not a legal paperwork exercise, and patent value is not 
 If you’re a founder, investor, or executive, the real questions aren’t: “Do we have patents?” or "how many patents do we have?"
 
 The questions to ask are:
-**1. What market do our patents control?**
-**2. Which competitors do they block?**
-**3. And how do they translate into revenue or leverage?**
+
+1. What market do our patents control?
+2. Which competitors do they block?
+3. And how do they translate into revenue or leverage?
 
 Let’s discuss, leave a comment! Feel free to send an invite if you are interested in these topics.`,
   },
@@ -366,15 +367,15 @@ And I've noticed something: the advice that matters most is usually the advice f
 
 Here are five things I tell every startup founder with love and respect, but without sugarcoating.
 
-## 1. "Your Technology Is Not Your Product"
+## 1. Your Technology Is Not Your Product
 
-I see this constantly, especially with deep tech founders. They've spent years developing an incredible technology — a novel algorithm, a new material, a breakthrough device, and they assume that the technology itself is the product.
+I see this constantly, especially with deep tech founders. They've spent years developing an incredible technology. It could be a novel algorithm, a new material, a breakthrough device, and they assume that the technology itself is the product.
 
 It's not.
 
 A product is a technology packaged with a user experience, a business model, a support system, and a go-to-market strategy. Nobody buys technology. They buy solutions to problems. If you can't articulate the problem you're solving in one sentence, you're not ready.
 
-## 2. "Your Market Is Smaller Than You Think"
+## 2. Your Market Is Smaller Than You Think
 
 Every pitch deck I've ever seen includes a TAM (Total Addressable Market) slide with a number in the billions. And almost every time, that number is wildly optimistic.
 
@@ -382,7 +383,7 @@ Here's the reality: your actual market - the people who know they have the probl
 
 Although showing a huge addressable market in your pitch can impress investors, make sure that you build your businses strategy on realistic projections. If they can support a viable business, great. If not, you need to rethink your strategy.
 
-## 3. "You Need to Talk to Customers Before You Build"
+## 3. You Need to Talk to Customers Before You Build
 
 This is such an obvious and widely discussed point, yet most founders still skip this step. They build for months (or years) in isolation, convinced that their vision is so clear and their technology is so good that customers will come running.
 
@@ -392,7 +393,7 @@ Before you write a single line of code or build a single prototype, talk to 50 p
 
 The insights you gain from these conversations will save you months of building the wrong thing.
 
-## 4. "Your IP Strategy Can't Wait"
+## 4. Your IP Strategy Can't Wait
 
 I've seen too many startups treat IP as something they'll figure out later. "We'll file patents once we have funding." "We'll worry about trademarks when we launch."
 
@@ -404,11 +405,12 @@ IP strategy doesn't have to be expensive at the early stage. But it does have to
 - Understand the difference between patents, trade secrets, and copyrights
 - Be strategic about what you publish and when
 
-## 5. "The Team Matters More Than the Idea"
+## 5. The Team Matters More Than the Idea
 
 Investors don't invest in ideas. They invest in teams. I've seen mediocre ideas executed brilliantly by great teams, and I've seen brilliant ideas fail because the team couldn't execute.
 
 When I evaluate startups, I look for:
+
 - **Complementary skills:** Do you have both technical and business expertise?
 - **Resilience:** Have the founders dealt with adversity before?
 - **Coachability:** Can they take feedback and adapt?
