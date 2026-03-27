@@ -93,16 +93,13 @@ In other words, claims are where value lives.
 From my experience advising startups and large companies on IP strategy and valuation, strong patents share a few characteristics:
 
 1. They map directly to revenue. If a patent doesn’t read on a product, a process, or a future market roadmap, its value is limited, no matter how novel the technology is.
-
 2. They create "strategic pressure". The most valuable patents force competitors to redesign their product, alter their product roadmap, pay a license fee, or exit the market completely. If your patent can be easily worked around, its economic value drops sharply.
-
 3. They scale with the business. Great patents grow in value as markets grow. Poorly scoped patents stay flat, even if the company succeeds.
-
 4. Context matters. The same patent can be worth thousands in one company’s hands and millions in another’s. It depends on market position, enforcement capability, and the business strategy you follow in leveraging your patent assets. For example, patents have greater value when they are part of a portfolio that has been well thought-out to protect different aspects of the technology to maximize protection. That way it becomes much harder for your competitors to work around or design around a single patent or a single claim. Instead, they have to take the entire portfolio into consideration.
 
 This is why patents are not a legal paperwork exercise, and patent value is not an accounting exercise. Rather, patents and intellectual property (IP) should be a core part of your business strategy.
 
-If you’re a founder, investor, or executive, the real questions aren’t: “Do we have patents?” or "how many patents do we have?"
+If you’re a founder, investor, or executive, the real questions aren’t: **“Do we have patents?”** or **"how many patents do we have?"**
 
 The questions to ask are:
 
@@ -148,13 +145,10 @@ Over the past year, I've had the privilege of working with some of Qatar's large
 
 Here's what I've learned about bridging the research-to-impact gap:
 
-**1. Start with the problem, not the technology.** It's tempting to lead with "we have an amazing LLM." But organizations don't care about your model architecture. They care about their backlog of unprocessed documents, their rising security threats, or their customer satisfaction scores.
-
-**2. Proof-of-concept is everything.** No one will commit to a full deployment based on a slide deck. Build something small, show it works, and let the results speak for themselves.
-
-**3. Speak the language of your stakeholder.** When I talk to researchers, I speak about Technology Readiness Levels (TRLs), benchmarks, and architectures. When I talk to government leaders, I speak about citizen impact, efficiency gains, and strategic alignment with Qatar's National Vision 2030.
-
-**4. IP strategy matters from day one.** Before you demo anything, make sure your intellectual property is protected. I've seen too many great technologies lose their competitive advantage because IP wasn't considered early enough.
+1. **Start with the problem, not the technology.** It's tempting to lead with "we have an amazing LLM." But organizations don't care about your model architecture. They care about their backlog of unprocessed documents, their rising security threats, or their customer satisfaction scores.
+2. **Proof-of-concept is everything.** No one will commit to a full deployment based on a slide deck. Build something small, show it works, and let the results speak for themselves.
+3. **Speak the language of your stakeholder.** When I talk to researchers, I speak about Technology Readiness Levels (TRLs), benchmarks, and architectures. When I talk to government leaders, I speak about citizen impact, efficiency gains, and strategic alignment with Qatar's National Vision 2030.
+4. **IP strategy matters from day one.** Before you demo anything, make sure your intellectual property is protected. I've seen too many great technologies lose their competitive advantage because IP wasn't considered early enough.
 
 ## What's Next
 
@@ -200,7 +194,7 @@ My job was to be the connective tissue. The person who could sit in a room with 
 
 Enterprise migrations fail when they're treated as one big project. They succeed when they're broken into phases with clear milestones, dependencies, and rollback plans.
 
-We used an approach I call "progressive migration" — starting with lower-risk market segments, validating everything, then expanding. Each phase had its own success criteria, and we never moved to the next phase until the current one was rock solid.
+We used an approach I call "progressive migration", which basically means starting with lower-risk market segments, validating everything, then expanding. Each phase had its own success criteria, and we never moved to the next phase until the current one was rock solid.
 
 ### Trust
 
@@ -218,11 +212,8 @@ Across my time at Shopify, the migrations I led contributed over $600M in GMV. B
 ## What I'd Tell Anyone Doing Enterprise Migrations
 
 1. **Invest in discovery.** Spend more time understanding the current state than you think you need to. The things that break migrations are always the things nobody told you about.
-
 2. **Build relationships before you need them.** When things go wrong at 2 AM (and they will), you need people who trust you enough to pick up the phone and work through it together.
-
 3. **Document everything.** Not for bureaucracy's sake, but because enterprise migrations involve so many moving parts that no single person can hold it all in their head.
-
 4. **Celebrate the boring stuff.** A successful data migration with zero errors isn't exciting, but it's the foundation everything else is built on.
 
 The best migrations are the ones nobody notices. When customers wake up and everything just works, that's when you know you've done your job.`,
@@ -261,6 +252,7 @@ I've seen this happen so many times. A team develops amazing technology, publish
 By then, it's often too late. The publications and presentations often count as "prior art" that can invalidate a patent. The competitive advantage that the technology once had is now available to anyone who reads the paper.
 
 **The fix:** Think about IP from day one. This doesn't mean filing patents on everything (that's expensive and often unnecessary). It means having an IP strategy that considers:
+
 - What aspects of the technology are truly novel and protectable?
 - Should we patent, keep it as a trade secret, or publish strategically?
 - Who are the potential licensees, and what would they value most?
@@ -290,7 +282,7 @@ Technology commercialization is hard. If it were easy, every lab breakthrough wo
 If you're a researcher wondering why your technology isn't getting traction, or an investor trying to evaluate early-stage deep tech, I hope these lessons are useful. They're hard-won, and I'm still learning new ones every day.`,
   },
   {
-    id: "patent-strategy",
+    id: "patent-strategy2",
     title:
       "Patent Strategy Isn't Just for Lawyers: A Tech Leader's Perspective",
     excerpt:
@@ -313,12 +305,13 @@ At Google, I managed the company's participation in the IP3 (Industry Patent Pur
 My team evaluated, acquired, and licensed 56 patent families with a total budget of $5.3 million. But the real value wasn't in the patents themselves. It was in the intelligence we gathered about the competitive landscape.
 
 By analyzing thousands of patent offers, we gained deep insights into:
+
 - Which technology areas were heating up
 - Which competitors were building patent portfolios (and where)
-- Where Google had freedom to operate — and where it didn't
+- Where Google had freedom to operate and where it didn't
 - Which patents were actually worth acquiring vs. which were noise
 
-This intelligence informed product decisions, R&D investment, and strategic partnerships. Patents weren't just legal documents — they were a window into the future of technology competition.
+This intelligence informed product decisions, R&D investment, and strategic partnerships. Patents aren't just legal documents. They're a window into the future of technology competition.
 
 ## Why Every Tech Leader Should Care
 
@@ -339,13 +332,9 @@ In the tech industry, patents are often used as bargaining chips in cross-licens
 ## Practical Advice for Tech Leaders
 
 1. **Educate yourself.** You don't need to become a patent attorney, but you should understand the basics: what can be patented, how the process works, and what a patent actually protects.
-
 2. **Integrate IP into your product development process.** Every time your team builds something novel, ask: "Is this patentable? Should we protect it?"
-
 3. **Think globally.** Patent protection is territorial. A US patent doesn't protect you in Europe or China. When deciding where to file, think about where your markets and competitors are located.
-
 4. **Don't just file and forget.** A patent portfolio needs active management. Regularly review your portfolio to identify patents that should be maintained, licensed, or abandoned.
-
 5. **Build relationships with your IP team.** Whether it's an in-house counsel or an external firm, the best patent strategies come from close collaboration between technical and legal teams.
 
 Patents aren't just for lawyers. They're a strategic asset that every tech leader should understand and leverage.`,
@@ -400,6 +389,7 @@ I've seen too many startups treat IP as something they'll figure out later. "We'
 By then, it's often too late. You've disclosed your innovation at a conference, a competitor has filed first, or you've chosen a company name that's already trademarked.
 
 IP strategy doesn't have to be expensive at the early stage. But it does have to be intentional. At minimum:
+
 - Document your innovations with dated records
 - Do a basic trademark search before naming your company
 - Understand the difference between patents, trade secrets, and copyrights
