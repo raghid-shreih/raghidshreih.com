@@ -124,7 +124,7 @@ export default function BlogPost() {
                   <Tag key={i} className={`my-4 space-y-2 ${isOrdered ? "list-decimal" : "list-disc"} pl-6`}>
                     {items.map((item, j) => (
                       <li key={j} className="text-muted-foreground leading-relaxed text-[15px]">
-                        {renderInlineFormatting(item.replace(/^[-\d.]\s*/, ""))}
+                        {renderInlineFormatting(item.replace(/^(-|\d+\.)\s*/, ""))}
                       </li>
                     ))}
                   </Tag>

@@ -25,10 +25,11 @@ export const blogPosts: BlogPost[] = [
     content: `Great research does not automatically translate into real world impact. That requires effective commercialization.
 
 Commercialization is the process of turning research into real-world value. It’s not just about patents or startups. It’s about:
-* Understanding the problem a technology solves
-* Protecting intellectual property effectively
-* Validating the technology with industry through demos and pilots
-* Structuring industry collaborations and licensing agreements so companies can actually adopt it.
+
+- Understanding the problem a technology solves
+- Protecting intellectual property effectively
+- Validating the technology with industry through demos and pilots
+- Structuring industry collaborations and licensing agreements so companies can actually adopt it.
 
 In emerging innovation ecosystems, there are unique challenges.
 
@@ -42,7 +43,7 @@ In computing and AI, the challenges are amplified.
 
 Technologies evolve rapidly, and AI shortens development cycles even further. AI models age quickly. Access to data is often constrained. And global hyperscalers set expectations that local research is often unfairly compared against.
 
-The question is no longer ‘Is the research good?’ but rather: ‘Is it competitive, deployable, and relevant now?’”
+The question is no longer **‘Is the research good?’** but rather: **‘Is it competitive, deployable, and relevant now?’**”
 
 Except for foundational breakthroughs, patenting is hard in the computing space. And in the age of AI assisted coding, computer code, even if protected by copyright, has limited value.
 
@@ -62,9 +63,9 @@ So what works?
 
 Commercialization is not an administrative function. And it’s not about paperwork and vanity metrics.
 
--> It’s about creating pathways for research to solve real problems.
--> It’s about adding value and addressing pain points.
--> It’s about building trusted partnerships with industry.
+- It’s about creating pathways for research to solve real problems.
+- It’s about adding value and addressing pain points.
+- It’s about building trusted partnerships with industry.
 
 That’s when innovation truly starts to make an impact!
     `,
