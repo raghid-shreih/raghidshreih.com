@@ -13,9 +13,108 @@ export type BlogPost = {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "research-commercialization",
+    title: "Translating research into real world impact through effective commercialization.",
+    excerpt:
+      "Great research does not automatically translate into real world impact. That requires effective commercialization.",
+    date: "2026-03-07",
+    readTime: "6 min read",
+    tags: ["Technology", "Commercialization", "Innovation"],
+    source: "linkedin",
+    linkedinUrl: "https://www.linkedin.com/in/raghid",
+    content: `Great research does not automatically translate into real world impact. That requires effective commercialization.
+
+Commercialization is the process of turning research into real-world value. It’s not just about patents or startups. It’s about:
+* Understanding the problem a technology solves
+* Protecting intellectual property effectively
+* Validating the technology with industry through demos and pilots
+* Structuring industry collaborations and licensing agreements so companies can actually adopt it.
+
+In emerging innovation ecosystems, there are unique challenges.
+
+Industry is often risk-averse, and most companies prefer to buy proven solutions over investing in innovative research.
+
+Local markets are small, which limits scaling and forces innovators to think globally at an early stage.
+
+At the same time, researchers are incentivized to publish, not to productize new technology.
+
+In computing and AI, the challenges are amplified.
+
+Technologies evolve rapidly, and AI shortens development cycles even further. AI models age quickly. Access to data is often constrained. And global hyperscalers set expectations that local research is often unfairly compared against.
+
+The question is no longer ‘Is the research good?’ but rather: ‘Is it competitive, deployable, and relevant now?’”
+
+Except for foundational breakthroughs, patenting is hard in the computing space. And in the age of AI assisted coding, computer code, even if protected by copyright, has limited value.
+
+What truly matters is proven market traction and users.
+
+A solution with market traction can always be monetized.
+
+But without users, even the most brilliant technology has no value.
+
+So what works?
+
+1. Start with industry problems, not papers.
+2. Use proof-of-concepts and pilots to de-risk adoption.
+3. Focus your IP strategy to incorporate not just patents, but also data and trade secrets.
+4. When filing patents, carefully craft claims that are commercially valuable.
+5. For universities, position yourself as a research partner, not a vendor.
+
+Commercialization is not an administrative function. And it’s not about paperwork and vanity metrics.
+
+-> It’s about creating pathways for research to solve real problems.
+-> It’s about adding value and addressing pain points.
+-> It’s about building trusted partnerships with industry.
+
+That’s when innovation truly starts to make an impact!
+    `,
+  },
+  {
+    id: "patent-strategy",
+    title: "Why Intellectual property (IP) should be a core part of your business strategy",
+    excerpt:
+      "Are patents just pieces of paper? Are they a legal excercise that your company forces you to go through? Or are they just trophies that you hang in your office? Well, of course not!",
+    date: "2026-03-01",
+    readTime: "6 min read",
+    tags: ["Patents", "Intellectual Property", "Innovation"],
+    source: "linkedin",
+    linkedinUrl: "https://www.linkedin.com/in/raghid",
+    content: `Are patents just pieces of paper? Are they a legal excercise that your company forces you to go through? Or are they just trophies that you hang in your office? Well, of course not!
+
+A patent is a legal instrument with real, quantifiable business value. And that value has very little to do with how many pages the patent has, or even how clever the invention sounds. It has everything to do with what the patent actually protects.
+
+Here’s the key point many founders and executives miss: A patent’s value reflects the market opportunity it legally controls. That control comes from the granted claims, not the description, not the diagrams, not the title, and certainly not the costs you incurred to obtain the patent.
+
+The claims define what competitors are legally prevented from doing. Which means where freedom-to-operate is restricted, and how much leverage you have in licensing, partnerships, or litigation.
+
+In other words, claims are where value lives.
+
+From my experience advising startups and large companies on IP strategy and valuation, strong patents share a few characteristics:
+
+1. They map directly to revenue. If a patent doesn’t read on a product, a process, or a future market roadmap, its value is limited, no matter how novel the technology is.
+
+2. They create "strategic pressure". The most valuable patents force competitors to redesign their product, alter their product roadmap, pay a license fee, or exit the market completely. If your patent can be easily worked around, its economic value drops sharply.
+
+3. They scale with the business. Great patents grow in value as markets grow. Poorly scoped patents stay flat, even if the company succeeds.
+
+4. Context matters. The same patent can be worth thousands in one company’s hands and millions in another’s. It depends on market position, enforcement capability, and the business strategy you follow in leveraging your patent assets. For example, patents have greater value when they are part of a portfolio that has been well thought-out to protect different aspects of the technology to maximize protection. That way it becomes much harder for your competitors to work around or design around a single patent or a single claim. Instead, they have to take the entire portfolio into consideration.
+
+This is why patents are not a legal paperwork exercise, and patent value is not an accounting exercise. Rather, patents and intellectual property (IP) should be a core part of your business strategy.
+
+If you’re a founder, investor, or executive, the real questions aren’t: “Do we have patents?” or "how many patents do we have?"
+
+The questions to ask are:
+**1. What market do our patents control?**
+**2. Which competitors do they block?**
+**3. And how do they translate into revenue or leverage?**
+
+Let’s discuss, leave a comment! Feel free to send an invite if you are interested in these topics.`,
+  },
+  {
     id: "ai-commercialization-qatar",
     title: "Bridging the Gap: From AI Research to Real-World Impact in Qatar",
-    excerpt: "How Qatar's research institutions are turning cutting-edge AI into practical solutions for government and enterprise. My experience working with the Ministry of Justice, NCSA, and Qatar Airways on AI adoption.",
+    excerpt:
+      "How Qatar's research institutions are turning cutting-edge AI into practical solutions for government and enterprise. My experience working with government departments and enterprise partners on AI adoption.",
     date: "2026-02-15",
     readTime: "6 min read",
     tags: ["AI", "Qatar", "Innovation"],
@@ -23,25 +122,25 @@ export const blogPosts: BlogPost[] = [
     linkedinUrl: "https://www.linkedin.com/in/raghid",
     content: `There's a fascinating transformation happening in Qatar right now, and I'm lucky enough to be in the middle of it.
 
-At Hamad Bin Khalifa University, I work at the intersection of cutting-edge AI research and real-world deployment. My job, in simple terms, is to take brilliant ideas from the lab and turn them into solutions that organizations can actually use.
+At Hamad Bin Khalifa University (HBKU), I work at the intersection of cutting-edge AI research and real-world deployment. My job, in simple terms, is to take brilliant ideas from the research labs and turn them into solutions that organizations can actually use.
 
 ## The Challenge
 
-Qatar has world-class researchers producing groundbreaking work in LLMs, NLP, data platforms, and decision systems. But there's always been a gap — what academics call the "valley of death" — between a research paper and a deployed product.
+Qatar has world-class researchers producing groundbreaking work in LLMs, NLP, data platforms, and decision systems. But there's always been a gap. What academics call the "valley of death" between a research paper and a deployed product.
 
 The challenge isn't just technical. It's about translation. How do you take a complex AI model and explain its value to a government minister who cares about citizen services? How do you convince an airline that an AI-driven optimization tool will save them millions without disrupting their operations?
 
 ## Working with Qatar's Largest Organizations
 
-Over the past year, I've had the privilege of working with some of Qatar's most important institutions:
+Over the past year, I've had the privilege of working with some of Qatar's largest and most important institutions, including government departments and enterprise organizations. Here's a snapshot of what we're working on:
 
-**Ministry of Justice (MOJ)** — We're exploring how NLP and LLM technologies can streamline legal document processing, making justice more accessible and efficient.
+**Fanar AI** — We're exploring how to deploy Qatar's locally developed and hosted LLM to government institutions to steamline complex workflows while ensuring data security and sovereignty.
 
-**National Cyber Security Agency (NCSA)** — AI-driven threat detection and analysis tools that help protect Qatar's digital infrastructure.
+**Digital Transformation** — Applying our technical strength at HBKU to lead digital transformation programs for government and enterprise partners, preparing these organizations for an AI-enabled future.
 
-**Mowasalat** — Smart transportation solutions that use data platforms and decision systems to optimize Qatar's public transport network.
+**AI Interviewing** — Streamlining interview processes in large organizations by deploying an AI-driven speech based interview platform.
 
-**Qatar Airways** — Exploring AI applications across one of the world's most respected airlines, from customer experience to operational efficiency.
+**Training** — Exploring AI applications in staff training by building solutions that combine LLM, RAG, speech-to-text and text-to-speech, as well as specialized algorithms for testing and evaluation.
 
 ## Lessons Learned
 
@@ -51,32 +150,33 @@ Here's what I've learned about bridging the research-to-impact gap:
 
 **2. Proof-of-concept is everything.** No one will commit to a full deployment based on a slide deck. Build something small, show it works, and let the results speak for themselves.
 
-**3. Speak the language of your stakeholder.** When I talk to researchers, I speak about TRLs, benchmarks, and architectures. When I talk to government leaders, I speak about citizen impact, efficiency gains, and strategic alignment with Qatar's National Vision 2030.
+**3. Speak the language of your stakeholder.** When I talk to researchers, I speak about Technology Readiness Levels (TRLs), benchmarks, and architectures. When I talk to government leaders, I speak about citizen impact, efficiency gains, and strategic alignment with Qatar's National Vision 2030.
 
 **4. IP strategy matters from day one.** Before you demo anything, make sure your intellectual property is protected. I've seen too many great technologies lose their competitive advantage because IP wasn't considered early enough.
 
 ## What's Next
 
-Qatar is positioning itself as a global leader in AI adoption, and the work we're doing at HBKU is a key part of that story. The next phase is about scaling — taking successful pilots and turning them into sustainable, deployed solutions that serve millions of people.
+Qatar is positioning itself as a global leader in AI adoption, and the work we're doing at HBKU is a key part of that story. The next phase is about scaling by taking successful pilots and turning them into sustainable, deployed solutions that serve millions of people.
 
-I'm incredibly excited about what's ahead. If you're working on similar challenges — bridging the gap between AI research and real-world impact — I'd love to connect and share notes.`,
+I'm incredibly excited about what's ahead. If you're working on similar challenges of bridging the gap between AI research and real-world impact, I'd love to connect and share notes!`,
   },
   {
     id: "enterprise-migrations",
-    title: "What I Learned Migrating Apple to Shopify",
-    excerpt: "Leading one of the most high-profile e-commerce platform migrations taught me that technology is only 30% of the challenge. The other 70% is people, process, and trust. Here's what I mean.",
+    title: "What I Learned Migrating Apple Premium Resellers to Shopify",
+    excerpt:
+      "Leading one of the most high-profile e-commerce platform migrations taught me that technology is only 30% of the challenge. The other 70% is people, process, and trust. Here's what I mean.",
     date: "2025-06-20",
     readTime: "8 min read",
     tags: ["E-Commerce", "Leadership", "Shopify"],
     source: "linkedin",
     linkedinUrl: "https://www.linkedin.com/in/raghid",
-    content: `When people hear that I helped migrate some of the world's most iconic brands to Shopify — including Apple, Supreme, and Everlane — they usually ask about the technical challenges. The APIs, the data models, the payment integrations.
+    content: `When people hear that I helped migrate some of the world's most iconic brands to Shopify such as Apple, Supreme, and Everlane, they usually ask about the technical challenges. The APIs, the data models, the payment integrations.
 
 But here's the truth: the technology was only about 30% of the challenge. The other 70% was people, process, and trust.
 
 ## The Scale of Enterprise Migrations
 
-Let me paint a picture. When a brand like Apple decides to change their e-commerce platform, it's not like switching from Gmail to Outlook. We're talking about:
+Let me paint a picture. When a brand like Apple decides to change the default e-commerce platform of their Premium Resellers, it's not like switching from Gmail to Outlook. We're talking about:
 
 - Millions of daily transactions
 - Complex internationalization across dozens of countries
@@ -84,7 +184,7 @@ Let me paint a picture. When a brand like Apple decides to change their e-commer
 - Teams of hundreds who have built workflows around the existing platform
 - Zero tolerance for downtime or degraded customer experience
 
-The stakes are enormous. One bad migration can cost hundreds of millions in lost revenue and irreparable brand damage.
+The stakes are enormous. One bad migration can cost millions in lost revenue and irreparable brand damage.
 
 ## The 70% That Matters Most
 
@@ -92,7 +192,7 @@ The stakes are enormous. One bad migration can cost hundreds of millions in lost
 
 Every migration involves dozens of stakeholders with competing priorities. The engineering team wants clean code. The marketing team wants feature parity on day one. The finance team wants to know exactly when the cost savings kick in. The CEO wants to know it won't be a disaster.
 
-My job was to be the connective tissue — the person who could sit in a room with engineers and talk about API rate limits, then walk into the C-suite and explain why we needed two more weeks for data validation.
+My job was to be the connective tissue. The person who could sit in a room with engineers and talk about API rate limits, then walk into the C-suite and explain why we needed two more weeks for data validation.
 
 ### Process
 
@@ -104,10 +204,10 @@ We used an approach I call "progressive migration" — starting with lower-risk 
 
 This might be the most important ingredient. When you're asking a brand to trust you with their entire digital commerce operation, you need to earn that trust every single day. That means:
 
-- Being transparent about risks and challenges (no happy ears)
+- Being transparent about risks and challenges
 - Delivering on small promises before asking for big commitments
 - Having a clear escalation path when things go wrong (because they will)
-- Celebrating wins together, not just as the vendor
+- Celebrating wins together as a partner, not just as the vendor
 
 ## The Numbers
 
@@ -123,20 +223,22 @@ Across my time at Shopify, the migrations I led contributed over $600M in GMV. B
 
 4. **Celebrate the boring stuff.** A successful data migration with zero errors isn't exciting, but it's the foundation everything else is built on.
 
-The best migrations are the ones nobody notices. When customers wake up and everything just works — that's when you know you've done your job.`,
+The best migrations are the ones nobody notices. When customers wake up and everything just works, that's when you know you've done your job.`,
   },
   {
     id: "tech-commercialization",
-    title: "The Valley of Death: Why Great Technology Fails to Reach the Market",
-    excerpt: "After years of working in technology commercialization at Aramco, KAUST, and HBKU, I've seen the same patterns over and over. Here are the three biggest reasons promising technology never makes it to market — and how to avoid them.",
+    title:
+      "The Valley of Death: Why Great Technology Fails to Reach the Market",
+    excerpt:
+      "After years of working in technology commercialization at Aramco, KAUST, and HBKU, I've seen the same patterns over and over. Here are the three biggest reasons promising technology never makes it to market, and how to avoid them.",
     date: "2025-03-10",
     readTime: "7 min read",
     tags: ["Commercialization", "Startups", "Strategy"],
     source: "linkedin",
     linkedinUrl: "https://www.linkedin.com/in/raghid",
-    content: `I've spent the better part of a decade working in technology commercialization — at KAUST, Aramco, and now HBKU. I've evaluated hundreds of technologies, managed portfolios of patents, and led programs to take research from the lab to the market.
+    content: `I've spent the better part of a decade working in technology commercialization at KAUST, Aramco, and now HBKU. I've evaluated hundreds of technologies, managed portfolios of patents, and led programs to take research from the lab to the market.
 
-And I've watched far too many brilliant technologies die in what we call the "valley of death" — that treacherous gap between a working prototype and a commercial product.
+And I've watched far too many brilliant technologies die in what we call the "valley of death" - that treacherous gap between a working prototype and a commercial product.
 
 Here are the three biggest reasons great technology fails to reach the market, and what you can do about it.
 
@@ -148,13 +250,13 @@ A researcher develops a breakthrough material, a novel sensor, or a new AI algor
 
 The silence that follows is deafening.
 
-**The fix:** Start with the customer, not the technology. Before you invest years in development, spend a few weeks talking to potential users. What are their pain points? What solutions do they currently use? What would they pay for a better one? If you can't answer these questions, your technology isn't ready for commercialization — no matter how technically brilliant it is.
+**The fix:** Start with the customer, not the technology. Before you invest years in development, spend a few weeks talking to potential users. What are their pain points? What solutions do they currently use? What would they pay for a better one? If you can't answer these questions, your technology isn't ready for commercialization, no matter how technically brilliant it is.
 
 ## 2. The IP Afterthought
 
-I've seen this so many times it makes me want to scream. A team develops amazing technology, publishes papers about it, presents it at conferences, and then — months later — decides to file a patent.
+I've seen this happen so many times. A team develops amazing technology, publishes papers about it, presents it at conferences, and then - months later - decides to file a patent.
 
-By then, it's often too late. The publications and presentations count as "prior art" that can invalidate a patent. The competitive advantage that the technology once had is now available to anyone who reads the paper.
+By then, it's often too late. The publications and presentations often count as "prior art" that can invalidate a patent. The competitive advantage that the technology once had is now available to anyone who reads the paper.
 
 **The fix:** Think about IP from day one. This doesn't mean filing patents on everything (that's expensive and often unnecessary). It means having an IP strategy that considers:
 - What aspects of the technology are truly novel and protectable?
@@ -162,7 +264,7 @@ By then, it's often too late. The publications and presentations count as "prior
 - Who are the potential licensees, and what would they value most?
 - How do we time our publications and patent filings to maximize protection?
 
-At KAUST, I managed a portfolio of 190+ patents. The most valuable ones weren't necessarily the most technically impressive — they were the ones filed at the right time, covering the right claims, in the right jurisdictions.
+At KAUST, I managed a portfolio of 190+ patents. The most valuable ones weren't necessarily the most technically impressive. They were the ones filed at the right time, covering the right claims, in the right jurisdictions.
 
 ## 3. The Pilot That Never Ends
 
@@ -172,7 +274,7 @@ The pilot becomes a perpetual proof-of-concept that never transitions to a comme
 
 **The fix:** Define success criteria before the pilot starts. What specific outcomes need to be achieved for the customer to commit to a commercial agreement? What's the timeline? What's the decision-making process?
 
-At Aramco, I learned to structure pilots with clear go/no-go gates. At each gate, both sides had to make a decision: proceed to the next phase, pivot, or stop. This prevented the "zombie pilot" problem and forced honest conversations about whether the technology was truly meeting the customer's needs.
+To avoid this situation, I learned to structure pilots with clear go/no-go gates. At each gate, both sides had to make a decision: proceed to the next phase, pivot, or stop. This prevented the "zombie pilot" problem and forced honest conversations about whether the technology was truly meeting the customer's needs.
 
 ## The Way Forward
 
@@ -187,8 +289,10 @@ If you're a researcher wondering why your technology isn't getting traction, or 
   },
   {
     id: "patent-strategy",
-    title: "Patent Strategy Isn't Just for Lawyers: A Tech Leader's Perspective",
-    excerpt: "From my time at Google managing patent acquisitions worth $5.3M to negotiating licensing deals at KAUST, I've learned that patent strategy is a core business function. Here's why every tech leader should care about IP.",
+    title:
+      "Patent Strategy Isn't Just for Lawyers: A Tech Leader's Perspective",
+    excerpt:
+      "From my time at Google managing patent acquisitions worth $5.3M to negotiating licensing deals at KAUST and HBKU, I've learned that patent strategy is a core business function. Here's why every tech leader should care about IP.",
     date: "2024-11-05",
     readTime: "5 min read",
     tags: ["IP Strategy", "Patents", "Google"],
@@ -196,7 +300,7 @@ If you're a researcher wondering why your technology isn't getting traction, or 
     linkedinUrl: "https://www.linkedin.com/in/raghid",
     content: `Most tech leaders I meet think of patents as a legal matter. Something the lawyers handle. Something that happens in the background while they focus on building products and shipping code.
 
-I used to think that too. Then I spent three years at Google working on patent strategy, followed by years managing technology portfolios at KAUST and commercializing IP at Aramco and HBKU. And I learned something that changed my perspective entirely:
+I used to think that too. Then I joined Google's patent team and worked on the company's patent strategy. And I learned something that changed my perspective entirely:
 
 **Patent strategy is a core business function, not a legal afterthought.**
 
@@ -204,7 +308,7 @@ I used to think that too. Then I spent three years at Google working on patent s
 
 At Google, I managed the company's participation in the IP3 (Industry Patent Purchase Promotion) program. This was a groundbreaking initiative where Google invited patent holders to offer their patents for sale at a set price.
 
-My team evaluated, acquired, and licensed 56 patent families with a total budget of $5.3 million. But the real value wasn't in the patents themselves — it was in the intelligence we gathered about the competitive landscape.
+My team evaluated, acquired, and licensed 56 patent families with a total budget of $5.3 million. But the real value wasn't in the patents themselves. It was in the intelligence we gathered about the competitive landscape.
 
 By analyzing thousands of patent offers, we gained deep insights into:
 - Which technology areas were heating up
@@ -224,7 +328,7 @@ In a world where code can be copied and features can be cloned, patents provide 
 
 ### 2. Patents Are a Revenue Stream
 
-Licensing revenue from patents can be significant. At KAUST, some of our most valuable deals came from licensing technologies that the university itself would never commercialize directly. The patents allowed us to capture value from innovations that would otherwise sit on a shelf.
+Licensing revenue from patents can be significant. Often, valuable deals can come from licensing technologies that the patent owner would never commercialize directly. Patents allowed us to capture value from innovations that would otherwise sit on a shelf.
 
 ### 3. Patents Are a Negotiation Tool
 
@@ -236,7 +340,7 @@ In the tech industry, patents are often used as bargaining chips in cross-licens
 
 2. **Integrate IP into your product development process.** Every time your team builds something novel, ask: "Is this patentable? Should we protect it?"
 
-3. **Think globally.** Patent protection is territorial. A US patent doesn't protect you in Europe or China. Think about where your markets and competitors are when deciding where to file.
+3. **Think globally.** Patent protection is territorial. A US patent doesn't protect you in Europe or China. When deciding where to file, think about where your markets and competitors are located.
 
 4. **Don't just file and forget.** A patent portfolio needs active management. Regularly review your portfolio to identify patents that should be maintained, licensed, or abandoned.
 
@@ -246,22 +350,24 @@ Patents aren't just for lawyers. They're a strategic asset that every tech leade
   },
   {
     id: "startup-mentorship",
-    title: "5 Things I Tell Every Startup Founder (That They Don't Want to Hear)",
-    excerpt: "As a WIPO IP mentor and startup competition judge, I've worked with hundreds of founders. The advice that matters most is rarely about the product — it's about the market, the team, and the timing.",
+    title:
+      "5 Things I Tell Every Startup Founder (That They Don't Want to Hear)",
+    excerpt:
+      "As a WIPO IP mentor and startup competition judge, I've worked with hundreds of founders. The advice that matters most is rarely about the product. It's about the market, the team, and the timing.",
     date: "2024-08-22",
     readTime: "6 min read",
     tags: ["Startups", "Mentorship", "Entrepreneurship"],
     source: "linkedin",
     linkedinUrl: "https://www.linkedin.com/in/raghid",
-    content: `Over the years, I've mentored dozens of startups through WIPO's IP Management Clinic, judged competitions for MIT Enterprise Forum and Venture Cup, and led investments at SDTC. I've sat across the table from hundreds of passionate founders with big dreams and bold visions.
+    content: `Over the years, I've mentored dozens of startups through various venues including WIPO's IP Management Clinic, the MIT Enterprise Forum, and Venture Cup. I've also led investments into sustainable technology projects while at SDTC. I've sat across the table from hundreds of passionate founders with big dreams and bold visions.
 
 And I've noticed something: the advice that matters most is usually the advice founders don't want to hear.
 
-Here are five things I tell every startup founder — with love and respect, but without sugarcoating.
+Here are five things I tell every startup founder with love and respect, but without sugarcoating.
 
 ## 1. "Your Technology Is Not Your Product"
 
-I see this constantly, especially with deep tech founders. They've spent years developing an incredible technology — a novel algorithm, a new material, a breakthrough device — and they assume that the technology itself is the product.
+I see this constantly, especially with deep tech founders. They've spent years developing an incredible technology — a novel algorithm, a new material, a breakthrough device, and they assume that the technology itself is the product.
 
 It's not.
 
@@ -271,17 +377,17 @@ A product is a technology packaged with a user experience, a business model, a s
 
 Every pitch deck I've ever seen includes a TAM (Total Addressable Market) slide with a number in the billions. And almost every time, that number is wildly optimistic.
 
-Here's the reality: your actual market — the people who know they have the problem you solve, can afford your solution, and are willing to switch from what they're currently using — is a tiny fraction of your TAM.
+Here's the reality: your actual market - the people who know they have the problem you solve, can afford your solution, and are willing to switch from what they're currently using - is a tiny fraction of your TAM.
 
-Start with your SAM (Serviceable Addressable Market), then narrow it further to your SOM (Serviceable Obtainable Market). That's the number that matters. If your SOM can support a viable business, great. If not, you need to rethink your strategy.
+Although showing a huge addressable market in your pitch can impress investors, make sure that you build your businses strategy on realistic projections. If they can support a viable business, great. If not, you need to rethink your strategy.
 
 ## 3. "You Need to Talk to Customers Before You Build"
 
-This is Steve Blank 101, and yet most founders still skip this step. They build for months (or years) in isolation, convinced that their vision is so clear and their technology is so good that customers will come running.
+This is such an obvious and widely discussed point, yet most founders still skip this step. They build for months (or years) in isolation, convinced that their vision is so clear and their technology is so good that customers will come running.
 
 They won't.
 
-Before you write a single line of code or build a single prototype, talk to 50 potential customers. Not friends and family — real potential customers who would actually pay for your solution. Ask them about their problems, their current solutions, and what they'd pay for something better.
+Before you write a single line of code or build a single prototype, talk to 50 potential customers. Not friends and family. Real potential customers who would actually pay for your solution. Ask them about their problems, their current solutions, and what they'd pay for something better.
 
 The insights you gain from these conversations will save you months of building the wrong thing.
 
@@ -311,76 +417,9 @@ If you're a solo technical founder, find a business co-founder. If you're a busi
 
 ## The Bottom Line
 
-Starting a company is one of the hardest things you can do. The founders I admire most aren't the ones with the most brilliant ideas — they're the ones who are honest with themselves, hungry for feedback, and willing to adapt.
+Starting a company is one of the hardest things you can do. The founders I admire most aren't the ones with the most brilliant ideas. Rather, they're the ones who are honest with themselves, hungry for feedback, and willing to adapt.
 
-If any of this resonated with you, feel free to reach out. I'm always happy to chat with founders who are building something they believe in.`,
-  },
-  {
-    id: "agile-real-world",
-    title: "Agile Beyond Software: Applying Scrum to Technology Commercialization",
-    excerpt: "Most people think Agile is only for software development. I've successfully applied Scrum and Kanban methodologies to patent licensing, technology pilots, and investment due diligence. Here's how.",
-    date: "2024-05-15",
-    readTime: "5 min read",
-    tags: ["Agile", "Program Management", "Innovation"],
-    source: "linkedin",
-    linkedinUrl: "https://www.linkedin.com/in/raghid",
-    content: `When I tell people that I use Scrum to manage patent licensing deals and Kanban to track technology commercialization pipelines, I usually get puzzled looks.
-
-"Isn't Agile for software development?"
-
-Yes, Agile was born in software. But its core principles — iterative progress, frequent feedback, adaptive planning, and cross-functional collaboration — are universal. I've been applying these principles to non-software contexts for over a decade, and the results have been remarkable.
-
-## Scrum for Patent Licensing at KAUST
-
-At KAUST, I managed a portfolio of 80+ technologies and 190+ patents. Negotiating licensing agreements is traditionally a slow, waterfall-like process: identify a licensee, negotiate terms, draft an agreement, go through legal review, sign, and implement.
-
-This process could take 12-18 months. We needed to move faster.
-
-So we applied Scrum principles:
-
-**Sprints:** We organized our licensing efforts into two-week sprints. Each sprint had a clear goal — whether it was completing due diligence on a potential licensee, drafting a term sheet, or finalizing contract language.
-
-**Daily standups:** The licensing team (including legal, technical, and business members) had brief daily check-ins to identify blockers and keep momentum.
-
-**Sprint reviews:** At the end of each sprint, we reviewed progress with stakeholders and adjusted priorities based on feedback.
-
-**Retrospectives:** We regularly reflected on what was working and what wasn't, and made process improvements.
-
-The result? We reduced average deal closure time by about 40%. More importantly, the quality of our deals improved because we caught issues earlier and adapted faster.
-
-## Kanban for Technology Commercialization at Aramco
-
-At Aramco, I used Kanban boards to visualize and manage the technology commercialization pipeline. Each technology moved through stages:
-
-1. **Discovery** — Initial assessment of market potential
-2. **Validation** — Customer interviews and competitive analysis
-3. **Pilot** — Proof-of-concept with a real customer
-4. **Scale** — Commercial deployment planning
-5. **Launch** — Go-to-market execution
-
-Each stage had WIP (Work In Progress) limits to prevent the team from spreading too thin. We could only have a certain number of technologies in each stage at any time. This forced us to make tough prioritization decisions and focus on the technologies with the highest potential.
-
-The visual nature of the Kanban board made it easy to communicate pipeline status to senior management without lengthy reports. A five-minute walkthrough of the board told a more compelling story than any PowerPoint deck.
-
-## Key Principles for Agile Outside Software
-
-If you want to apply Agile to non-software contexts, here are the principles that matter most:
-
-**1. Make work visible.** Whether it's a physical board or a digital tool, visualizing your work helps everyone understand what's happening, what's blocked, and what's coming next.
-
-**2. Limit work in progress.** This is counterintuitive for most organizations, which reward busy-ness. But research consistently shows that limiting WIP increases throughput and quality.
-
-**3. Iterate and adapt.** Don't try to plan everything upfront. Plan enough to start, execute, learn, and adjust. The world changes too fast for 18-month project plans.
-
-**4. Embrace cross-functional collaboration.** The best outcomes come from teams that include diverse perspectives — technical, business, legal, and customer-facing.
-
-**5. Measure outcomes, not outputs.** Don't measure how many patents you filed or how many meetings you had. Measure how many deals you closed, how much revenue you generated, and how many technologies you successfully deployed.
-
-## The Results Speak for Themselves
-
-Across my career — from Google to KAUST to Aramco to Shopify to HBKU — I've consistently found that Agile principles produce better outcomes than traditional project management approaches. Not because Agile is magic, but because it forces you to stay close to reality, adapt to change, and focus on what actually matters.
-
-If you're managing complex programs outside of software development, give Agile a try. Start small, experiment, and adapt. That's the Agile way.`,
+If any of this resonated with you, feel free to reach out. I'm always happy to chat with founders who are building something they truly believe in!`,
   },
 ];
 
