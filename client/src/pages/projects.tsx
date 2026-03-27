@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ExternalLink, Lightbulb } from "lucide-react";
+import { Lightbulb } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 const projects = [
@@ -139,8 +139,8 @@ export default function Projects() {
                 data-testid={`card-project-${project.id}`}
               >
                 <div className="rounded-2xl border border-border/50 bg-card/50 hover:bg-card hover:border-primary/20 transition-all duration-300 overflow-hidden">
-                  <div className="grid md:grid-cols-3 gap-0">
-                    <div className="md:col-span-2 p-6 md:p-8">
+                  <div>
+                    <div className="p-6 md:p-8">
                       <div className="flex items-center gap-3 mb-3">
                         <Badge variant="secondary" className="text-xs">
                           {project.company}
@@ -173,16 +173,6 @@ export default function Projects() {
                       </div>
                     </div>
 
-                    <div className="md:border-l border-t md:border-t-0 border-border/30 flex items-center justify-center p-8 bg-gradient-to-br from-primary/5 to-blue-400/5">
-                      <div className="text-center">
-                        <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mx-auto mb-3">
-                          <ExternalLink className="w-6 h-6 text-primary" />
-                        </div>
-                        <p className="text-xs text-muted-foreground">
-                          Video walkthrough<br />coming soon
-                        </p>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </motion.div>
