@@ -29,7 +29,7 @@ const experience: TimelineEntry[] = [
           "Acted as a strategic interface between researchers, industry partners, startups, and legal/IP teams to translate deep tech into market-ready solutions",
           "Evaluated technology readiness levels (TRLs) for emerging AI research and defined technical and commercial roadmaps",
           "Translated complex AI research (LLMs, NLP, data platforms, decision systems) into clear value propositions for non-technical stakeholders",
-          "Managed technology programs with Qatari enterprises including Ministry of Justice, NCSA, Mowasalat, and Qatar Airways",
+          "Managed complex technology implementation programs with government and enterprise customers",
         ],
       },
     ],
