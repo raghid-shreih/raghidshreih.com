@@ -167,9 +167,12 @@ export default function Projects() {
                         ))}
                       </div>
 
-                      <div className="flex items-center gap-2 text-sm">
-                        <Lightbulb size={14} className="text-primary" />
-                        <span className="text-muted-foreground font-medium">{project.impact}</span>
+                      <div className="flex items-start gap-3 px-4 py-3 rounded-xl bg-primary/10 border border-primary/20">
+                        <Lightbulb size={15} className="text-primary shrink-0 mt-0.5" />
+                        <p className="text-sm">
+                          <span className="font-bold text-primary uppercase tracking-wide text-xs mr-2">Impact:</span>
+                          <span className="text-foreground font-medium">{project.impact}</span>
+                        </p>
                       </div>
                     </div>
 
