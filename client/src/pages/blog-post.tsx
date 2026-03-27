@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useRoute, Link } from "wouter";
 import { motion } from "framer-motion";
 import { ArrowLeft, Calendar, Clock } from "lucide-react";
@@ -8,6 +9,10 @@ import { getBlogPost, formatDate } from "@/data/blogPosts";
 export default function BlogPost() {
   const [, params] = useRoute("/blog/:id");
   const post = params?.id ? getBlogPost(params.id) : undefined;
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "instant" });
+  }, [params?.id]);
 
   if (!post) {
     return (
