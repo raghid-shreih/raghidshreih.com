@@ -59,7 +59,7 @@ const journeyMilestones = [
   {
     year: "2025",
     title: "Building Qatar's AI Future",
-    description: "Now at Hamad Bin Khalifa University (HBKU) in Doha, Qatar, commercializing AI-driven technologies and managing technology collaboration programs with organizations including the Ministry of Justice, NCSA, Mowasalat, and Qatar Airways.",
+    description: "Now at Hamad Bin Khalifa University (HBKU) in Doha, Qatar, commercializing AI-driven technologies and managing technology collaboration programs with government and enterprise customers",
   },
 ];
 

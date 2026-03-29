@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { motion } from "framer-motion";
-import { ArrowRight, Briefcase, GraduationCap, ChevronDown, MessageCircle } from "lucide-react";
+import { ArrowRight, Briefcase, GraduationCap, ChevronDown, MessageCircle, Mail } from "lucide-react";
 import { SiGoogle, SiShopify } from "react-icons/si";
 import { Button } from "@/components/ui/button";
 
@@ -86,14 +86,15 @@ export default function Home() {
                 </Button>
               </Link>
               <Link href="/interview">
-                <Button size="lg" variant="secondary" className="gap-2 px-8 text-base" data-testid="button-interview-raghid">
+                <Button size="lg" className="gap-2 px-8 text-base" data-testid="button-interview-raghid">
                   Interview Raghid!
                   <MessageCircle size={18} />
                 </Button>
               </Link>
               <Link href="/contact">
-                <Button variant="outline" size="lg" className="gap-2 px-8 text-base" data-testid="button-get-in-touch">
+                <Button size="lg" className="gap-2 px-8 text-base" data-testid="button-get-in-touch">
                   Let's Talk
+                  <Mail size={18} />
                 </Button>
               </Link>
             </div>
