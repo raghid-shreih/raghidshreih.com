@@ -50,6 +50,29 @@ setInterval(() => {
   }
 }, 60_000);
 
+const DAILY_REQUEST_CAP = 200;
+let dailyRequestCount = 0;
+let dailyResetAt = getNextMidnightUTC();
+
+function getNextMidnightUTC(): number {
+  const now = new Date();
+  const midnight = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + 1));
+  return midnight.getTime();
+}
+
+function checkDailyCap(): boolean {
+  const now = Date.now();
+  if (now >= dailyResetAt) {
+    dailyRequestCount = 0;
+    dailyResetAt = getNextMidnightUTC();
+  }
+  if (dailyRequestCount >= DAILY_REQUEST_CAP) {
+    return false;
+  }
+  dailyRequestCount++;
+  return true;
+}
+
 export async function registerRoutes(
   httpServer: Server,
   app: Express
@@ -77,6 +100,9 @@ export async function registerRoutes(
       const clientIp = req.ip || req.socket.remoteAddress || "unknown";
       if (!checkRateLimit(clientIp)) {
         return res.status(429).json({ message: "Too many requests. Please wait a moment before trying again." });
+      }
+      if (!checkDailyCap()) {
+        return res.status(503).json({ message: "RaghidBot has reached its daily limit. Please check back tomorrow!" });
       }
 
       const parsed = interviewRequestSchema.safeParse(req.body);

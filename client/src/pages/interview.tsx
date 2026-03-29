@@ -116,8 +116,11 @@ export default function Interview() {
       }
     } catch (err) {
       if (err instanceof DOMException && err.name === "AbortError") return;
-      const errorMsg = err instanceof Error && err.message.includes("Too many")
+      const errMessage = err instanceof Error ? err.message : "";
+      const errorMsg = errMessage.includes("Too many")
         ? "Slow down a bit! Too many messages. Wait a moment and try again."
+        : errMessage.includes("daily limit")
+        ? "RaghidBot has reached its daily limit. Please check back tomorrow!"
         : "Oops, something went wrong. Try asking again!";
       setMessages((prev) => {
         const updated = [...prev];
