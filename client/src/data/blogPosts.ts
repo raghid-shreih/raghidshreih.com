@@ -39,6 +39,30 @@ Where is your organization currently operating on this pyramid?
 Contact me to discuss!`,
   },
   {
+    id: "gemini-intelligence-wakeup",
+    title: "The 'AI Wrapper' Era Is Over. The 'Deep Integration' Era Has Begun.",
+    excerpt: "The announcement of Gemini Intelligence is a wake-up call for the AI ecosystem. Agentic capabilities are moving natively into the OS and hardware — and for many AI startups, their moat has just evaporated.",
+    date: "2026-05-09",
+    readTime: "3 min read",
+    tags: ["AI/ML", "Startups", "Strategy", "Artificial Intelligence"],
+    source: "original",
+    content: `The announcement of "Gemini Intelligence" today is a wake-up call for the AI ecosystem.
+
+Agentic capabilities are moving natively into the OS (Android) and into hardware (phones, watches, laptops, cars, and even glasses!). LLMs are no longer a destination, but rather they are embedded into the fabric of our devices.
+
+For many AI startups, this means that their "moat" has just evaporated.
+
+Startups whose value proposition is a thin UI wrapper over an API to an LLM are at high risk. Things like scheduling assistants, form fillers, or data parsers. These startups are now competing with a native system with full and near zero latency access to user context. Trying to compete with a native "default" setting on billions of devices is a losing game.
+
+But Google is building a "Horizontal Agent" that can do a bit of everything for everyone. This leaves a massive opening for deep "Vertical Agents". Software development and building an app is no longer a challenge and is not a competitive advantage.
+
+The added value of a startup is to have a deep understanding of their vertical, know their customers pain points and use cases, and differentiate their product using this deep knowledge. The winners won't be those fighting Gemini, but those building specialized agents that can handle specific use cases elegantly.
+
+We are entering an era of API-first startups that provide the deep and multi-step execution that a general purpose agent can't do.
+
+**The takeaway? The "AI wrapper" era is over. The "Deep Integration" era has begun.**`,
+  },
+  {
     id: "research-commercialization",
     title: "Translating research into real world impact through effective commercialization.",
     excerpt:
