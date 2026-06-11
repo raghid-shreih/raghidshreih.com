@@ -64,6 +64,48 @@ We are entering an era of API-first startups that provide the deep and multi-ste
 **The takeaway? The "AI wrapper" era is over. The "Deep Integration" era has begun.**`,
   },
   {
+    id: "rocketship-growth-mindset",
+    title: "Everyone Should Work at a Rocket Ship Company at Least Once",
+    excerpt: "A rocket ship company is a forcing function for how you think, work, and grow. Here's what Google and Shopify taught me about operating at the highest level.",
+    date: "2026-04-10",
+    readTime: "4 min read",
+    tags: ["Leadership", "Career", "Growth Mindset", "Google", "Shopify"],
+    source: "original",
+    imageUrl: "/growth-mindset-rocketship.png",
+    content: `This is a great discussion of "growth mindset" through the lens of Shopify, one of Canada's most important success stories.
+
+It reinforces something I've come to believe strongly:
+
+**Everyone should experience a "rocket ship" company at least once in their career.**
+
+It's a forcing function for how you think, work, and grow.
+
+For me, that experience came at Google and Shopify.
+
+At Google, I learned that nothing is impossible. I learned how to tackle complex problems, think at massive scale, and operate with deep curiosity. I developed a bias for action and a true builder mindset.
+
+Shopify reinforced those foundations, but added a different edge: GSD (Get Sh*t Done). It sharpened my entrepreneurial mindset and helped me build strong resilience to change.
+
+My operating rhythm became simple and powerful:
+
+**Experiment → Learn → Pivot → Repeat**
+
+Most importantly, at Shopify I learned to build products that users love while actually solving their pain points.
+
+Students spend years at schools that teach them what to know. But we spend very little time teaching them how to think and operate.
+
+Imagine if schools focused more on:
+
+- Ownership
+- Adaptability
+- Curiosity
+- Critical thinking
+- Problem-solving under uncertainty
+- Bias to action
+
+In the age of AI, these skills will be the difference between winners and losers.`,
+  },
+  {
     id: "research-commercialization",
     title: "Translating research into real world impact through effective commercialization.",
     excerpt:
