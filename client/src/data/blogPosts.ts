@@ -106,6 +106,43 @@ Imagine if schools focused more on:
 In the age of AI, these skills will be the difference between winners and losers.`,
   },
   {
+    id: "ai-bubble-or-boom",
+    title: "AI Bubble or AI Boom? Why Comparing AI to the Dot-Com Era Is a Mistake",
+    excerpt: "Are we witnessing an AI bubble similar to 1999? Or a genuine $13 trillion opportunity? Comparing AI to the Dot-Com bubble is a mistake — here's why.",
+    date: "2025-08-05",
+    readTime: "4 min read",
+    tags: ["AI/ML", "Investing", "Technology", "Innovation"],
+    source: "original",
+    imageUrl: "/ai-bubble-vs-boom.jpg",
+    content: `Are we witnessing an AI bubble similar to the Dot-Com bubble of 1999? Or are we looking at a genuine $13 trillion market opportunity?
+
+Comparing AI to the Dot-Com bubble is a mistake. Here's why.
+
+Recently there is talk about AI entering a bubble phase, with over-investment and unsustainable growth projections. The stock market has taken us on a wild ride over the past few days, with investors clearly worried about company valuations.
+
+In the late 1990s, the Dot-Com bubble was fueled by overspending on networking infrastructure and speculative investments in internet businesses with no clear path to profitability. Investors poured money in, but revenues took much longer than expected to materialize.
+
+**The current AI investment cycle is fundamentally different.**
+
+In 1999, the Dot-Com value proposition was weak. It took many years for people to switch their activities online. Adoption was slow, because the incentives for users were weak. Applications of the internet were not compelling enough. They were like cool tricks but they lacked immediate, substantial value.
+
+**The 2025 AI Value Proposition: a 10x boost in productivity!**
+
+AI adoption isn't driven by convenience. It's driven by unprecedented productivity growth, which translates into profitability.
+
+Tools like Replit, GitHub Copilot, Canva, OpenAI, and AlphaSense don't just offer convenience. They offer a 10x productivity boost to engineers, product managers, and designers. This level of efficiency is being replicated across every single white-collar sector: legal, finance, accounting, and consulting.
+
+While only ~14% of Dot-Coms were profitable at the 1999 peak, many companies leading the AI boom are already realizing rapid expansion and profit growth.
+
+The customers are there, and so is the compelling value proposition, and the lure is irresistible. Organizations are rushing to adopt AI tools that allow them to do more, and to do it faster and cheaper.
+
+Yes, there is hype. Yes, there will be speculative froth and bad investments. That's the nature of any revolutionary technology. On the other hand, when deployed effectively, AI delivers immediate, measurable, and profound value.
+
+So, is there an AI bubble? In the stock market, possibly. Related to the impact on jobs and the economy, it's hard to say. But in terms of AI's real world impact and adoption curve? We are still in the early innings of a multi-trillion dollar economic shift.
+
+**What is the most transformative AI application that you've witnessed in your industry in the last 6 months?**`,
+  },
+  {
     id: "research-commercialization",
     title: "Translating research into real world impact through effective commercialization.",
     excerpt:
