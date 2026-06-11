@@ -8,10 +8,36 @@ export type BlogPost = {
   source: "linkedin" | "original";
   linkedinUrl?: string;
   videoUrl?: string;
+  imageUrl?: string;
   content: string;
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    id: "ai-hierarchy",
+    title: "The Hierarchy of Artificial Intelligence",
+    excerpt: "AI is often discussed as if it were a single technology. In reality, it is a hierarchy of interconnected concepts, technologies, and capabilities.",
+    date: "2026-06-11",
+    readTime: "3 min read",
+    tags: ["AI/ML", "Artificial Intelligence", "Technology"],
+    source: "original",
+    imageUrl: "/ai-pyramid.png",
+    content: `Artificial Intelligence (AI) is often discussed as if it were a single technology. In reality, it is a hierarchy of interconnected concepts, technologies, and capabilities.
+
+From data, computing power, and foundational AI techniques, we move through machine learning, neural networks, and deep learning to today's generative AI systems. Beyond that, agentic and multi-agent systems are increasingly being deployed to plan, reason, and execute tasks with growing levels of autonomy.
+
+The Generative AI applications most of us use today (ChatGPT, Gemini, Claude) are just one layer in a much broader technology stack that has been evolving for decades.
+
+**The Takeaway:** We are rapidly moving from using AI primarily as a tool for generating content and answering questions toward using AI systems that can execute increasingly complex workflows on our behalf. Understanding the AI technology stack helps distinguish short-term hype from the deeper structural shifts that are changing how organizations operate and create value.
+
+Where is your organization currently operating on this pyramid?
+
+- Still experimenting with prompts?
+- Deploying AI into business processes?
+- Building agentic workflows and autonomous systems?
+
+Contact me to discuss!`,
+  },
   {
     id: "research-commercialization",
     title: "Translating research into real world impact through effective commercialization.",

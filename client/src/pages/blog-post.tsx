@@ -69,6 +69,23 @@ export default function BlogPost() {
             </div>
           </motion.div>
 
+          {post.imageUrl && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.1, duration: 0.5 }}
+              className="mb-12"
+            >
+              <div className="rounded-2xl overflow-hidden border border-border/50">
+                <img
+                  src={post.imageUrl}
+                  alt={post.title}
+                  className="w-full h-auto"
+                />
+              </div>
+            </motion.div>
+          )}
+
           {post.videoUrl && (
             <motion.div
               initial={{ opacity: 0, y: 20 }}
