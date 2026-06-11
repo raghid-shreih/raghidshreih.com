@@ -109,7 +109,7 @@ In the age of AI, these skills will be the difference between winners and losers
     id: "ai-bubble-or-boom",
     title: "AI Bubble or AI Boom? Why Comparing AI to the Dot-Com Era Is a Mistake",
     excerpt: "Are we witnessing an AI bubble similar to 1999? Or a genuine $13 trillion opportunity? Comparing AI to the Dot-Com bubble is a mistake — here's why.",
-    date: "2025-08-05",
+    date: "2026-03-10",
     readTime: "4 min read",
     tags: ["AI/ML", "Investing", "Technology", "Innovation"],
     source: "original",
