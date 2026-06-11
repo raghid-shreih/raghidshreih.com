@@ -46,6 +46,7 @@ Contact me to discuss!`,
     readTime: "3 min read",
     tags: ["AI/ML", "Startups", "Strategy", "Artificial Intelligence"],
     source: "original",
+    imageUrl: "/ai-deep-integration.png",
     content: `The announcement of "Gemini Intelligence" today is a wake-up call for the AI ecosystem.
 
 Agentic capabilities are moving natively into the OS (Android) and into hardware (phones, watches, laptops, cars, and even glasses!). LLMs are no longer a destination, but rather they are embedded into the fabric of our devices.

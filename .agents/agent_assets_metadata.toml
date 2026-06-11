@@ -1,0 +1,8 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "0GplAILiBw8yqvQGwmbKl"
+uri = "file://client/public/ai-deep-integration.png"
+type = "image"
+title = "ai-wrapper-vs-deep-integration"
